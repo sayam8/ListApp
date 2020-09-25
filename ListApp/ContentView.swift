@@ -11,11 +11,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            List(0..<10) { item in
-                NavigationLink(destination: /*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) { /*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/ }
-            }.navigationBarTitle("テスト")
-        }
+        Text("こんにちは")
+            .font(.title)
+            .foregroundColor(.blue)
     }
 }
 
